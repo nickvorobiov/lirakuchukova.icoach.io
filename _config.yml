@@ -1,0 +1,34 @@
+baseurl: ""
+url: "http://lirakuchukova.icoach.io"
+markdown: kramdown
+exclude:
+  - node_modules
+  - package.json
+  - README.md
+  - gulpfile.js
+  - deploy
+  - deploy-key.enc
+  - deploy-key
+
+title: "Лира Кучукова"
+description: "худей с пользой для здоровья"
+keywords: "диетолог, похудеть, правильное питание"
+author: "Николай Воробьёв"
+
+permalink: /:title/
+
+vk_group_id: 136116409
+
+yandex_metrika: 41821104 # lirakuchukova.icoach.io
+google_analytics: UA-89298735-3 # lirakuchukova.icoach.io
+facebook_pixel_id: 1064201373633710
+vk_retarget_url: '//vk.com/rtrg?r=oirR/oNZNZmkJ2x7lbPMzbz4xX85mjSkGm3Y1Lcno*CZPZahcuNKflnIZUkvey6eRCwlcn4SdDBhifgD0L2IB0XBYLpu8khqOcLh053C/ISGeCWWDlwgZ1APOnoYh2EGMBCNpw6Kqw1OMDVypoWYROynTXYRJXLTowFFmTH3KDs-&pixel_id=1000059605'
+
+company:
+  name: ИП Кучукова Лира Робертовна
+  info: ОГРН 316028000142444
+  phone: +7 (917) 414-86-80
+  email: lirakuchukova@icoach.io
+
+trello-list-id: 585a39439f503fc591dbc84a
+offer: "Лира Кучукова — консультация по похудению"
