@@ -19,7 +19,19 @@ body {
 .b-head {
   background: #f4f4fc url(../images/head-bg.jpg) bottom right no-repeat;
   background-size: 40%;
-  min-height: 600px;
+
+  @media (min-width: $screen-lg-min) {
+    min-height: 600px;
+  }
+
+  @media (max-width: $screen-md-min) {
+    background-size: 50%;
+  }
+
+  @media (max-width: $screen-xs-min) {
+    background-size: 100%;
+    min-height: 920px;
+  }
 
   h1 {
     font-weight: 700;
