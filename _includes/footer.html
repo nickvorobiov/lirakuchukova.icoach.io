@@ -1,0 +1,32 @@
+<footer>
+  <div class="block b-footer m-t-lg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <p>{{ site.company.phone }}</p>
+          <p>{{ site.company.email }}</p>
+        </div>
+        <div class="col-md-4 m-b">
+          <div id="vk_groups"></div>
+        </div>
+        <div class="col-md-4 col-md-offset-1">
+          <p>{{ site.company.name }}<br/>{{ site.company.info }}</p>
+          <p><a href="/privacy/">Политика конфиденциальности</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>
+
+<!-- VK Widget -->
+<div id="vk_community_messages"></div>
+<script type="text/javascript">
+VK.Widgets.CommunityMessages("vk_community_messages", {{ site.vk_group_id }}, {});
+</script>
+
+<!-- VK Widget -->
+<script type="text/javascript">
+VK.Widgets.Group("vk_groups", {mode: 1, width: "auto"}, {{ site.vk_group_id }});
+</script>
